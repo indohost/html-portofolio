@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>INDONESIA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav class="topnav" id="myTopnav">
+            <a href="#home">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#windows">Windows</a>
+            <a href="#profile">Profile</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <div class="jumbotron">
+            <div class="box">
+                <h1>I'm Adib Syarif</h1>
+                <p>Software Engineer & Developer</p>
+            </div>
+            <div class="box">
+                <img src="assets/img/hello.png" class="featured-image" alt="Hello">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="content">
+            <article id="about-us" class="card">
+                <h2>About Us</h2>
+                <p>Bentuk negara Indonesia adalah negara kesatuan dan bentuk pemerintahan Indonesia adalah republik, dengan Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah dan Presiden yang dipilih secara langsung. Ibu kota negara Indonesia adalah Jakarta.
+                    Indonesia berbatasan darat dengan Malaysia di Pulau Kalimantan dan Pulau Sebatik, dengan Papua Nugini di Pulau Papua dan dengan Timor Leste di Pulau Timor. Negara tetangga lainnya adalah Singapura, Filipina, Australia, dan wilayah
+                    persatuan Kepulauan Andaman dan Nikobar di India.</p>
+                <a href="https://id.wikipedia.org/wiki/Indonesia"><button class="btn-1">Read More</button></a>
+            </article>
+
+            <article id="windows" class="card-image">
+                <h2>Indonesia's Nature</h2>
+                <p>Indonesia merupakan negara kepulauan yang mencakup lebih dari 17.000 pulau yang dihuni oleh sekitar 255 juta penduduk, sebuah angka yang membuat Indonesia menjadi negara di urutan keempat dalam hal negara dengan jumlah populasi yang terbesar
+                    di dunia. Angka ini juga mengimplikasikan bahwa banyak keanekaragaman budaya, etnis, agama maupun linguistik yang dapat ditemukan di dalam negara ini. Budaya tersebut sangat bervariasi, dari ritual Hindu yang dipraktekkan sehari-hari
+                    di pulau Bali, sampai pemberlakuan (parsial) hukum syariah di Aceh dan gaya hidup pemburu-pengumpul orang Mentawai.
+                </p>
+                <a href="https://id.wikipedia.org/wiki/Gunung_Bromo"><img src="assets/img/img-1.jpg" class="window-image" alt="mount bromo"></a>
+                <a href="https://id.wikipedia.org/wiki/Danau_Toba"> <img src="assets/img/img-2.jpg" class="window-image" alt="lake toba"></a>
+                <a href="https://id.wikipedia.org/wiki/Kepulauan_Raja_Ampat"> <img src="assets/img/img-3.jpg" class="window-image" alt="raja ampat"></a>
+                <a href="https://id.wikipedia.org/wiki/Bali"> <img src="assets/img/img-4.jpg" class="window-image" alt="bali"></a>
+            </article>
+        </div>
+        <aside class="profile" id="profile">
+            <article class="profile card">
+                <header>
+                    <h2>Profile</h2>
+                    <p>Learn, Do it, Evaluate, Repeat</p>
+                    <figure>
+                        <img src="assets/img/foto.png">
+                        <figcaption class="spasing">ADIB SYARIF</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                        <tr>
+                            <th>Username</th>
+                            <td>bang_syarif</td>
+                        </tr>
+                        <tr>
+                            <th>Negara</th>
+                            <td>Indonesia</td>
+                        </tr>
+                    </table>
+                </section>
+
+            </article>
+        </aside>
+    </main>
+    <div class="hero-image">
+        <img src="assets/img/bendera.jpg" class="footer-image" alt="image">
+    </div>
+    <footer>
+        Copyright &copy; 2021 <b>M.A.S</b>. All Rights Reserved
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
